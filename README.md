@@ -1,4 +1,4 @@
 # PushXML
 PHP Lib to parse XML in a very simple way
 
-The original creator of this lib is the genious @nlehuen
+Hi inspired by the original code of the genious master of any code you can find on the internet [@nlehuen](https://github.com/nlehuen)
