@@ -8,7 +8,7 @@ This XML parser uses the standard XML SAX parser (which in turn uses expat) to p
 To parse a document, you provide a path expression and a callback function. The path expression tells the parser when to use the callback as soon as a tree branch matching the path expression has been parsed. See the example use in the source code.
 
  Usage example
-
+```xml
 $xml = <<<XMLEND
 <?xml version="1.0" encoding="US-ASCII"?>
 <foo id="bar">
@@ -52,3 +52,4 @@ function callback($root,$node) {
 
 $parser = new PushXML('/foo/section/item','callback');
 $parser->parse($xml,TRUE);
+```
